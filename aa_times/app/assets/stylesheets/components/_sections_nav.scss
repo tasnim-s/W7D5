@@ -1,0 +1,29 @@
+.nav-section {
+    border-bottom: 2px solid lightgray;
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+	    font-family: $sans-serif;
+	    font-size: 11px;
+	    margin-top: 10px;
+	    margin-bottom: 10px;
+        li {
+            margin-left: 10px;
+
+            a.nav-section-btn {
+                background: none;
+		        padding: 0px;
+		        color: #000;
+		        font-weight: normal;
+                border: none;
+                font-family: $sans-serif;
+            }
+            a.nav-section-btn:hover {
+                background-color: $lightest-gray;
+                border-bottom: 1px solid black;
+            }
+        }
+    }
+}

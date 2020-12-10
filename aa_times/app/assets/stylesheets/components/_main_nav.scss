@@ -1,9 +1,9 @@
 .main-nav {
   display: flex;
   justify-content: space-between;
-  background-color: lightblue;
   padding: 10px;
   align-items: center;
+  border-bottom: 1px solid lightgray;
 }
 
 .left-nav > ul,
@@ -32,7 +32,6 @@
 }
 
 .right-nav  {
-  background-color: pink;
   > ul {
 
     > li {
@@ -40,12 +39,14 @@
     }
 
     > li:last-of-type {
-      padding: 4px;
+      padding: 5px;
+      border-radius: 3px;
+      background-color: $lightest_gray;
     }
   }
   
   i {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
