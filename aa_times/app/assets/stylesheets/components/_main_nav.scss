@@ -1,17 +1,28 @@
 .main-nav {
-  
+  display: flex;
+  justify-content: space-between;
+  background-color: lightblue;
+  padding: 10px;
+  align-items: center;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
+  align-items: center;
 }
 
 .left-nav {
-
   > ul {
     > li {
-
+      font-family: $sans-serif;
+      font-size: 12px;
+      text-transform: uppercase;
+      font-weight: bold;
+      background-color: $lightest_gray;
+      padding: 5px;
+      border-radius: 3px;
+      margin: 5px;
     }
   }
 
@@ -21,24 +32,24 @@
 }
 
 .right-nav  {
-
+  background-color: pink;
   > ul {
 
     > li {
-  
+      margin: 2px;
     }
 
     > li:last-of-type {
-  
+      padding: 4px;
     }
   }
   
   i {
-
+    font-size: 15px;
   }
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-
+  background-color: $light_gray;
 }
