@@ -4,6 +4,7 @@
   padding: 10px;
   align-items: center;
   border-bottom: 1px solid lightgray;
+  z-index: -1;
 }
 
 .left-nav > ul,
@@ -39,7 +40,7 @@
     }
 
     > li:last-of-type {
-      padding: 5px;
+      padding: 7.5px 5px;
       border-radius: 3px;
       background-color: $lightest_gray;
     }
